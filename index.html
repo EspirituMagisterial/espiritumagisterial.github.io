@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Espíritu Magisterial</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {
     margin: 0;
@@ -11,44 +5,59 @@ body {
     background: #f4f6f8;
     color: #333;
 }
+
+/* HEADER CON IMAGEN */
 header {
-    background: #1e3a8a;
+    background: 
+        linear-gradient(rgba(30,58,138,0.7), rgba(30,58,138,0.7)),
+        url("imagenes/banner.jpg");
+    background-size: cover;
+    background-position: center;
     color: white;
-    padding: 40px 20px;
+    padding: 80px 20px;
     text-align: center;
 }
+
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
+
 header p {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
+
+/* RESTO IGUAL */
 section {
     padding: 40px 20px;
     max-width: 1100px;
     margin: auto;
 }
+
 .section-title {
     color: #1e3a8a;
     margin-bottom: 20px;
     font-size: 1.8em;
 }
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
+
 .card {
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
 .card h3 {
     margin-top: 0;
     color: #1e3a8a;
 }
+
 .card a {
     display: inline-block;
     margin-top: 10px;
@@ -58,9 +67,11 @@ section {
     text-decoration: none;
     border-radius: 5px;
 }
+
 .card a:hover {
     background: #1e40af;
 }
+
 footer {
     background: #111827;
     color: #d1d5db;
@@ -69,69 +80,4 @@ footer {
     font-size: 0.9em;
 }
 </style>
-</head>
 
-<body>
-
-<header>
-    <h1>Espíritu Magisterial</h1>
-    <p>Recursos educativos y reflexiones pedagógicas para docentes de secundaria del Perú</p>
-</header>
-
-<section>
-    <h2 class="section-title">📚 Áreas Curriculares</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Ciencias Sociales</h3>
-            <p>Sesiones, lecturas y actividades alineadas al Currículo Nacional.</p>
-            <a href="#">Ver recursos</a>
-        </div>
-        <div class="card">
-            <h3>DPCC</h3>
-            <p>Material para formación ciudadana, ética y convivencia escolar.</p>
-            <a href="#">Ver recursos</a>
-        </div>
-        <div class="card">
-            <h3>Tutoría</h3>
-            <p>Lecturas reflexivas, fichas y sesiones para el desarrollo personal.</p>
-            <a href="#">Ver recursos</a>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2 class="section-title">⬇️ Material Descargable</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Sesiones de Aprendizaje</h3>
-            <p>Listas para usar en aula.</p>
-            <a href="https://www.mediafire.com/" target="_blank">Descargar</a>
-        </div>
-        <div class="card">
-            <h3>Fichas de Trabajo</h3>
-            <p>Actividades y lecturas profundas.</p>
-            <a href="https://www.mediafire.com/" target="_blank">Descargar</a>
-        </div>
-        <div class="card">
-            <h3>Lecturas Pedagógicas</h3>
-            <p>Textos reflexivos para estudiantes.</p>
-            <a href="https://www.mediafire.com/" target="_blank">Descargar</a>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2 class="section-title">✍️ Sobre el Proyecto</h2>
-    <p>
-        Espíritu Magisterial nace como una iniciativa docente para compartir recursos
-        educativos contextualizados a la realidad peruana, fortaleciendo la práctica
-        pedagógica y la formación integral del estudiante.
-    </p>
-</section>
-
-<footer>
-    © 2026 Espíritu Magisterial | Docentes al servicio de la educación
-</footer>
-
-</body>
-</html>
